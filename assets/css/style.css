@@ -388,11 +388,21 @@ button {
   background-color: var(--color-primay);
   z-index: 101;
 }
+.logo-emf{
+  height:35px;
+  width: 35px;
+  box-sizing: border-box;
+}
 
 /* Tablets */
 @media (min-width: 767px) {
   .section__title {
     font-size: 36px;
+  }
+  .logo-emf{
+    height:35px;
+    width: 35px;
+    box-sizing: border-box;
   }
 
   .header__nav {
@@ -444,6 +454,11 @@ button {
   .hero__img {
     flex-shrink: 0;
   }
+  .logo-emf{
+    height:35px;
+    width: 35px;
+    box-sizing: border-box;
+  }
 
 
 /* Grid o cuadricula */
@@ -458,10 +473,7 @@ button {
   .grid-item {
     border: 1px solid black;
   }
-  .emf{
-    height:40%;
-    width: 40%;
-  }
+  
 
   /*Redes Sociales*/
   *{
